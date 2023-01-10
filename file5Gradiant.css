@@ -1,0 +1,20 @@
+.box{
+    border:1px solid black;
+    height:200px;
+    width: 150px;
+    /*default is from top to botton*/
+    background-image: linear-gradient(to left, blue , red );
+}
+#radial{
+    border:1px solid black;
+    height:200px;
+    width: 150px;
+    background:radial-gradient(circle , red, blue , orange);
+    background-image:radial-gradient(yellow 5%, orange 10%,red 50%) ;
+}
+#conical{
+    border:1px solid black;
+    height:200px;
+    width: 150px;
+    background-image:conic-gradient(blue,red,orange,green);
+}
