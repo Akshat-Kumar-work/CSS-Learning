@@ -1,6 +1,7 @@
 html{
     margin:30px;
 }
+
 #bannerimage{
     border-left: 10px;
    
@@ -11,11 +12,11 @@ html{
     font-weight: bold;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-#line{
-    width:6in
 
-    
+#line{
+    width:6in    
 }
+
 #rup4500{
     color: blue;
     font-size:xx-large;
@@ -23,8 +24,8 @@ html{
     margin: 10px;
     padding: 10px;
     margin-left: 0;
-
 }
+
 #rup6999{
     color: grey;
     font-size:xx-large;
@@ -32,19 +33,21 @@ html{
     margin: 10px;
     padding: 10px;
 }
+
 #off{
     color:aliceblue;
   background-color:aquamarine ;
     font-size:xx-large;
     font-weight: bolder;
     margin: 10px;
-    padding: 10px;
-    
+    padding: 10px;  
 }
+
 #firstline{
     margin-bottom: -15px;
 
 }
+
 #secondline{
     margin-top: -15px;
 
