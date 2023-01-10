@@ -6,15 +6,15 @@ html{
    
 }
 
-#heading{
+.heading{
     font-size:2.5ch;
     font-weight: bold;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #line{
-    width:50%;
-    text-align:left;
-    margin-left:0
+    width:6in
+
+    
 }
 #rup4500{
     color: blue;
@@ -22,6 +22,7 @@ html{
     font-weight: bolder;
     margin: 10px;
     padding: 10px;
+    margin-left: 0;
 
 }
 #rup6999{
@@ -37,7 +38,14 @@ html{
     font-size:xx-large;
     font-weight: bolder;
     margin: 10px;
-    
     padding: 10px;
     
+}
+#firstline{
+    margin-bottom: -15px;
+
+}
+#secondline{
+    margin-top: -15px;
+
 }
