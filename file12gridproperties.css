@@ -1,0 +1,38 @@
+#container{
+    border: 1px solid brown;
+    background-color: yellow;
+    display:grid;
+    grid-template-columns: repeat(3,100px);
+    grid-template-rows: repeat(2,100px);
+    grid-gap: 10px;
+    height: 700px;
+    width: 600px;
+
+    /*align items of grid wrt main axis , default main axis is x axis*/
+    /*justify-content: start; 
+    justify-content: end;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;*/
+
+    /*align items of grid wrt main axis , default main axis is x axis*/
+  /* align-items:start ;
+    align-items:end ;
+    align-items:center ;
+    align-items:baseline ;
+    align-items:stretch;*/
+
+    
+    
+}
+.box{
+    border:1px solid red;
+    background-color: aqua;
+}
+#box1{
+    justify-self: start; /*this property work on individual or particular item*/ /*it place wrt horizontal axis-*/
+    align-self: start;  /*this property work on individual or particular item*/ /*it place wrt horizontal axis-*/
+    
+
+}

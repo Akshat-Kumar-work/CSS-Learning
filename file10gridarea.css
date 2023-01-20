@@ -1,0 +1,23 @@
+.container{
+    height: 700px;
+    border: 1px solid red;
+    background-color: yellow;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+    grid-gap: 10px; /*to give gap between items*/
+}
+.box{
+    border: 1px solid green;
+    background-color: aqua;
+    
+}
+#box1{
+   /* grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;*/
+
+    grid-area: 1/1/3/4 ; /*it is short hand of above code row start/col start/row end/col end*/ 
+
+}

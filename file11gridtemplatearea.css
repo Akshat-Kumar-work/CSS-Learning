@@ -1,0 +1,33 @@
+#container{
+    height: 700px;
+    border: 1px solid red;
+    background-color: yellow;
+    display: grid;
+    grid-template-rows: 30px 150px 400px 30px;
+    grid-template-columns: 400px;
+
+    grid-template-areas: 
+    "hd" /*naming rows*/ /*row 1 1st col name is hd*/
+    "side" /*naming rows*/ /*row 2 1st col name is hd*/
+    "main"
+    "ft";
+}
+
+.box{
+    border: 1px solid green;
+    background-color: aqua;
+    
+}
+
+#Header{ 
+    grid-area: side; /*assigning element using row names*/
+}
+#Sidebar{
+    grid-area: hd; /*putting sidebar element content into row name hd"*/
+}
+#Content{
+    grid-area: main;
+}
+#Footer{
+    grid-area: ft;
+}
