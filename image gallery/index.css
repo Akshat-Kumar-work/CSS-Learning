@@ -74,6 +74,6 @@
   }
 
   .card:hover figcaption{
-    opacity: 1;
+    opacity: 1; /*after setting opacity to 1 from 0 the text will apear*/
     transform: scale(1.03);
   }
